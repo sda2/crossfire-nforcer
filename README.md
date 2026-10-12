@@ -2,7 +2,7 @@
 
 <img src="assets/nforcer-logo-v2.png" alt="Crossfire nForcer" width="480">
 
-Crossfire nForcer patches the chipset-vendor check in supported ATI `ati2mtag.sys` drivers. It is a console application for Windows XP 32-bit and .NET Framework 2.0. Version 0.2.1 replaces internal pattern names in console output with a recognition message and updates the recorded hardware results. Patch bytes are unchanged.
+Crossfire nForcer patches the chipset-vendor check in supported ATI `ati2mtag.sys` drivers so Crossfire is no longer limited to AMD chipsets. It is a console application for Windows XP 32-bit and .NET Framework 2.0.
 
 ## Requirements
 
