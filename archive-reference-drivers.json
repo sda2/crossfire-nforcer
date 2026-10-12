@@ -1,0 +1,1258 @@
+[
+  {
+    "archive": "10-2_legacy_vista32-64_dd_ccc.exe",
+    "relative_path": "10-2_legacy_vista32-64_dd_ccc\\expanded\\Packages\\Drivers\\Display\\LH6A_INF\\B_95503\\atikmdag.sys",
+    "version": "8.01.01.882",
+    "module": "atikmdag.sys",
+    "machine": "0x8664",
+    "sha256": "f04a79797ab697aa8316c37df0d79ed28a9134bd0e1b2c9400619c0a9b3634ff",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "10-2_legacy_vista32-64_dd_ccc.exe",
+    "relative_path": "10-2_legacy_vista32-64_dd_ccc\\expanded\\Packages\\Drivers\\Display\\LH_INF\\B_95503\\atikmdag.sys",
+    "version": "8.01.01.882",
+    "module": "atikmdag.sys",
+    "machine": "0x14c",
+    "sha256": "f92c75cb3d1a5e4bc36b2a27346ec5754b808950af2bfbbd78ac9e570a30098b",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "10-2_legacy_xp32-64_dd_ccc.exe",
+    "relative_path": "10-2_legacy_xp32-64_dd_ccc\\expanded\\Driver\\XP6A_INF\\B_95503\\ati2mtag.sys",
+    "version": "6.14.10.6925",
+    "module": "ati2mtag.sys",
+    "machine": "0x8664",
+    "sha256": "d54316e4ab04769a6ff2617b0b860335da0afc03958f50b8ce1e44b5c09a4a78",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "10-2_legacy_xp32-64_dd_ccc.exe",
+    "relative_path": "10-2_legacy_xp32-64_dd_ccc\\expanded\\Driver\\XP_INF\\B_95503\\ati2mtag.sys",
+    "version": "6.14.10.6925",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "6b6e58cbde1010ff13740da91482e8a40d7b31cd808c16b524be012c0eadb0d1",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat86-layout",
+      "function_offset": "0x32cb4a",
+      "function_va": "0x389f4a",
+      "patches": [
+        {
+          "offset": "0x32cb5e",
+          "before": "75",
+          "after": "eb"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x32d7a9"
+      ],
+      "references_offsets": [],
+      "checksum": "0x36d741",
+      "changed_offsets": [
+        "0x138",
+        "0x139",
+        "0x32cb5e"
+      ],
+      "input_sha256": "6b6e58cbde1010ff13740da91482e8a40d7b31cd808c16b524be012c0eadb0d1",
+      "output_sha256": "7eff16802a0d4ccf02e52d705a4892d4009d2c8791b85dbb9bba4269bd7447ba",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "8.6",
+    "earliest_supplied_version_for_layout_family": "8.6"
+  },
+  {
+    "archive": "11-12_vista64_win7_64_dd_ccc_ocl.exe",
+    "relative_path": "11-12_vista64_win7_64_dd_ccc_ocl\\expanded\\Packages\\Drivers\\Display\\W76A_INF\\B128376\\atikmdag.sys",
+    "version": "8.01.01.1215",
+    "module": "atikmdag.sys",
+    "machine": "0x8664",
+    "sha256": "1d39f9c371c7988299d7183c31641971e0398191287d72ce87ecc38398890b50",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "11-12_vista64_win7_64_dd_ccc_ocl.exe",
+    "relative_path": "11-12_vista64_win7_64_dd_ccc_ocl\\expanded\\Packages\\Drivers\\Display\\W76A_INF\\B128376\\atikmpag.sys",
+    "version": "8.14.01.6243",
+    "module": "atikmpag.sys",
+    "machine": "0x8664",
+    "sha256": "b0f1f6479ee607c4beef624375bf01f766ebad3403e503714848dd5546a2df64",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "11-1_vista64_win7_64_dd_ccc_enu.exe",
+    "relative_path": "11-1_vista64_win7_64_dd_ccc_enu\\expanded\\Packages\\Drivers\\Display\\W76A_INF\\B111431\\atikmdag.sys",
+    "version": "8.01.01.1114",
+    "module": "atikmdag.sys",
+    "machine": "0x8664",
+    "sha256": "152052f268edc531163bd580c1bffd4f94883a3e661783a36d2c527894c16749",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "11-1_vista64_win7_64_dd_ccc_enu.exe",
+    "relative_path": "11-1_vista64_win7_64_dd_ccc_enu\\expanded\\Packages\\Drivers\\Display\\W76A_INF\\B111431\\atikmpag.sys",
+    "version": "8.14.01.6178",
+    "module": "atikmpag.sys",
+    "machine": "0x8664",
+    "sha256": "e970b829838edcdbe589e1f4c641cc637c31edf9f949b2159a48361b3dc38aba",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "11-8_vista64_win7_64_dd_ccc_ocl.exe",
+    "relative_path": "11-8_vista64_win7_64_dd_ccc_ocl\\expanded\\Packages\\Drivers\\Display\\W76A_INF\\B123158\\atikmdag.sys",
+    "version": "8.01.01.1178",
+    "module": "atikmdag.sys",
+    "machine": "0x8664",
+    "sha256": "cfa9110054cfaf319394bb8d567b74affa21791a58dc81b87a714ccc7c578f33",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "11-8_vista64_win7_64_dd_ccc_ocl.exe",
+    "relative_path": "11-8_vista64_win7_64_dd_ccc_ocl\\expanded\\Packages\\Drivers\\Display\\W76A_INF\\B123158\\atikmpag.sys",
+    "version": "8.14.01.6226",
+    "module": "atikmpag.sys",
+    "machine": "0x8664",
+    "sha256": "93fe4ef2489c29823ed0f9c9d91b44e531bc0a9b3b56dddda0f947e80568f70c",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "13-9-legacy_vista_win7_64_dd_ccc_whql.exe",
+    "relative_path": "13-9-legacy_vista_win7_64_dd_ccc_whql\\expanded\\Packages\\Drivers\\Display\\W76A_INF\\B156566\\atikmdag.sys",
+    "version": "8.01.01.1248",
+    "module": "atikmdag.sys",
+    "machine": "0x8664",
+    "sha256": "f74a3589253aaedafb15d5c439771339fc3b78b1ce51409a630822b653d4885d",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "13-9-legacy_vista_win7_64_dd_ccc_whql.exe",
+    "relative_path": "13-9-legacy_vista_win7_64_dd_ccc_whql\\expanded\\Packages\\Drivers\\Display\\W76A_INF\\B156566\\atikmpag.sys",
+    "version": "8.14.01.6264",
+    "module": "atikmpag.sys",
+    "machine": "0x8664",
+    "sha256": "be995d5679abef800e24208a068c44a10607305a8c328ff29a11dcaab4d18fbb",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "14-4-xp32-64-dd-ccc-pack2.exe",
+    "relative_path": "14-4-xp32-64-dd-ccc-pack2\\expanded\\Packages\\Drivers\\Display\\XP6A_INF\\B166496\\ati2mtag.sys",
+    "version": "6.14.10.7279",
+    "module": "ati2mtag.sys",
+    "machine": "0x8664",
+    "sha256": "25a7e5266ed17b434f4b9cd1a7f9622c751f808a3fc003871553c57c38eca55b",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "14-4-xp32-64-dd-ccc-pack2.exe",
+    "relative_path": "14-4-xp32-64-dd-ccc-pack2\\expanded\\Packages\\Drivers\\Display\\XP_INF\\B166496\\ati2mtag.sys",
+    "version": "6.14.10.7279",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "5a8199e1aff6165793ce10b1307da8cd0dbac3d8e6e1ea6c1806ad9f3409347c",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat86-layout",
+      "function_offset": "0x4d1470",
+      "function_va": "0x52f670",
+      "patches": [
+        {
+          "offset": "0x4d1484",
+          "before": "75",
+          "after": "eb"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x4d2057"
+      ],
+      "references_offsets": [],
+      "checksum": "0x68ca67",
+      "changed_offsets": [
+        "0x148",
+        "0x149",
+        "0x4d1484"
+      ],
+      "input_sha256": "5a8199e1aff6165793ce10b1307da8cd0dbac3d8e6e1ea6c1806ad9f3409347c",
+      "output_sha256": "fd02a13850f127ec0af501a869a3bbd93af25a13abdfd58abec0e1fe2b79390c",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "8.6",
+    "earliest_supplied_version_for_layout_family": "8.6"
+  },
+  {
+    "archive": "5-12_xp-2k_dd_ccc_wdm_enu_28472.exe",
+    "relative_path": "5-12_xp-2k_dd_ccc_wdm_enu_28472\\expanded\\ati2mtag.sys",
+    "version": "6.14.10.6587",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "761e69545e5de13cd223259e3291447d54fba0b90da998303a7d89ea126d4f7d",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat512-layout",
+      "function_offset": "0x12668a",
+      "function_va": "0x13fa8a",
+      "patches": [
+        {
+          "offset": "0x12668a",
+          "before": "0fb742202d02",
+          "after": "b801000000c3"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x12751d"
+      ],
+      "references_offsets": [],
+      "checksum": "0x15c93b",
+      "changed_offsets": [
+        "0x150",
+        "0x151",
+        "0x12668a",
+        "0x12668b",
+        "0x12668c",
+        "0x12668d",
+        "0x12668e",
+        "0x12668f"
+      ],
+      "input_sha256": "761e69545e5de13cd223259e3291447d54fba0b90da998303a7d89ea126d4f7d",
+      "output_sha256": "aa7f2a51937b9c90fa08bc85300c55b9fe1e158c2910b022e1e228ebbb31d8dc",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "5.12",
+    "earliest_supplied_version_for_layout_family": "5.12"
+  },
+  {
+    "archive": "5-13_xp-2k_dd_ccc_wdm_enu_29124.exe",
+    "relative_path": "5-13_xp-2k_dd_ccc_wdm_enu_29124\\expanded\\ati2mtag.sys",
+    "version": "6.14.10.6587",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "2c4fcf69a887cc2389ebde3daff09b501a1c565a66f03b468292097150612b05",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat512-layout",
+      "function_offset": "0x12768a",
+      "function_va": "0x140a8a",
+      "patches": [
+        {
+          "offset": "0x12768a",
+          "before": "0fb742202d02",
+          "after": "b801000000c3"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x12851d"
+      ],
+      "references_offsets": [],
+      "checksum": "0x1691d1",
+      "changed_offsets": [
+        "0x150",
+        "0x151",
+        "0x152",
+        "0x12768a",
+        "0x12768b",
+        "0x12768c",
+        "0x12768d",
+        "0x12768e",
+        "0x12768f"
+      ],
+      "input_sha256": "2c4fcf69a887cc2389ebde3daff09b501a1c565a66f03b468292097150612b05",
+      "output_sha256": "6138f2c22f3057fbe8b4a57ced893172c98746da376648029f3883a8c41a04a3",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "5.12",
+    "earliest_supplied_version_for_layout_family": "5.12"
+  },
+  {
+    "archive": "6-12_xp_dd_ccc_wdm_enu_38463.exe",
+    "relative_path": "6-12_xp_dd_ccc_wdm_enu_38463\\expanded\\ati2mtag.sys",
+    "version": "6.14.10.6652",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "aacb380716a51eb974316735ecf6d1851f270534fbc7e10c8419b8ad19322d32",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat612-layout",
+      "function_offset": "0x2691c6",
+      "function_va": "0x2885c6",
+      "patches": [
+        {
+          "offset": "0x2691e7",
+          "before": "33c0c3",
+          "after": "eb3190"
+        },
+        {
+          "offset": "0x26921a",
+          "before": "23c2",
+          "after": "33c0"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x26a2e2"
+      ],
+      "references_offsets": [],
+      "checksum": "0x2c1452",
+      "changed_offsets": [
+        "0x140",
+        "0x141",
+        "0x142",
+        "0x2691e7",
+        "0x2691e8",
+        "0x2691e9",
+        "0x26921a",
+        "0x26921b"
+      ],
+      "input_sha256": "aacb380716a51eb974316735ecf6d1851f270534fbc7e10c8419b8ad19322d32",
+      "output_sha256": "14b240c0a3411c816010554c76a856c75d1c9b17c2d58c932bf589d84342c482",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "6.12",
+    "earliest_supplied_version_for_layout_family": "6.12"
+  },
+  {
+    "archive": "6-6_xp-2k_dd_ccc_wdm_enu_33678.exe",
+    "relative_path": "6-6_xp-2k_dd_ccc_wdm_enu_33678\\expanded\\ati2mtag.sys",
+    "version": "6.14.10.6618",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "a401a0266be31b3b968164f649d57aa1155b9e50056bdd0669945cb63e2761ef",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat512-layout",
+      "function_offset": "0x14adc8",
+      "function_va": "0x1661c8",
+      "patches": [
+        {
+          "offset": "0x14adc8",
+          "before": "0fb742202d02",
+          "after": "b801000000c3"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x14bdcf"
+      ],
+      "references_offsets": [],
+      "checksum": "0x18fc09",
+      "changed_offsets": [
+        "0x140",
+        "0x141",
+        "0x142",
+        "0x14adc8",
+        "0x14adc9",
+        "0x14adca",
+        "0x14adcb",
+        "0x14adcc",
+        "0x14adcd"
+      ],
+      "input_sha256": "a401a0266be31b3b968164f649d57aa1155b9e50056bdd0669945cb63e2761ef",
+      "output_sha256": "f73d4eb0ed915f33f54c4f4b4a80d4567430ac86b15af19a62aa6332dbe104a7",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "5.12",
+    "earliest_supplied_version_for_layout_family": "5.12"
+  },
+  {
+    "archive": "6-7_xp-2k_dd_ccc_wdm_enu_34826.exe",
+    "relative_path": "6-7_xp-2k_dd_ccc_wdm_enu_34826\\expanded\\ati2mtag.sys",
+    "version": "6.14.10.6626",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "b1e3a9a63b350aebaf679efeea56667bf40934e861e9db60bdbe38791e243bbf",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat512-layout",
+      "function_offset": "0x153e70",
+      "function_va": "0x16f270",
+      "patches": [
+        {
+          "offset": "0x153e70",
+          "before": "0fb742202d02",
+          "after": "b801000000c3"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x154ec1"
+      ],
+      "references_offsets": [],
+      "checksum": "0x1993f3",
+      "changed_offsets": [
+        "0x150",
+        "0x151",
+        "0x153e70",
+        "0x153e71",
+        "0x153e72",
+        "0x153e73",
+        "0x153e74",
+        "0x153e75"
+      ],
+      "input_sha256": "b1e3a9a63b350aebaf679efeea56667bf40934e861e9db60bdbe38791e243bbf",
+      "output_sha256": "8c9f2c5971ea25e6c10664f4c27d11948765cd8458017cf4c98e161b7071efe1",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "5.12",
+    "earliest_supplied_version_for_layout_family": "5.12"
+  },
+  {
+    "archive": "7-11_xp32_dd_ccc_wdm_enu_54435.exe",
+    "relative_path": "7-11_xp32_dd_ccc_wdm_enu_54435\\expanded\\Driver\\ati2mtag.sys",
+    "version": "6.14.10.6734",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "2e2508b6a70ff88237ca60157e777e2500c74089497e5acab553ff3ff2ee9a20",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat711-inline",
+      "function_offset": "0x23f9e4",
+      "function_va": "0x27fde4",
+      "patches": [
+        {
+          "offset": "0x23f9f7",
+          "before": "75",
+          "after": "eb"
+        }
+      ],
+      "validation": "full-function-and-dispatch-reference",
+      "callers_offsets": [],
+      "references_offsets": [
+        "0x1a27b4"
+      ],
+      "checksum": "0x289e42",
+      "changed_offsets": [
+        "0x140",
+        "0x141",
+        "0x142",
+        "0x23f9f7"
+      ],
+      "input_sha256": "2e2508b6a70ff88237ca60157e777e2500c74089497e5acab553ff3ff2ee9a20",
+      "output_sha256": "349596d146d413c542c49288a9fd4bdaa0a24071a445827a64b4b6c475a38d5d",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "7.11",
+    "earliest_supplied_version_for_layout_family": "7.11"
+  },
+  {
+    "archive": "7-12_xp32_dd_ccc_wdm_enu_55811.exe",
+    "relative_path": "7-12_xp32_dd_ccc_wdm_enu_55811\\expanded\\Driver\\ati2mtag.sys",
+    "version": "6.14.10.6755",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "115eb1805d37bc24db16b184aec755bcec88938ed2c1a5165a070529267cfaf8",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat712-inline",
+      "function_offset": "0x25f67a",
+      "function_va": "0x2afe7a",
+      "patches": [
+        {
+          "offset": "0x25f68d",
+          "before": "75",
+          "after": "eb"
+        }
+      ],
+      "validation": "full-function-and-dispatch-reference",
+      "callers_offsets": [],
+      "references_offsets": [
+        "0x1aa7f4"
+      ],
+      "checksum": "0x2b45ba",
+      "changed_offsets": [
+        "0x149",
+        "0x14a",
+        "0x25f68d"
+      ],
+      "input_sha256": "115eb1805d37bc24db16b184aec755bcec88938ed2c1a5165a070529267cfaf8",
+      "output_sha256": "753e5a703820c7fdc84f114eefd21650df9d68fcbc3394c11435eb8245b43b04",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "7.12",
+    "earliest_supplied_version_for_layout_family": "7.12"
+  },
+  {
+    "archive": "7-2_xp_dd_ccc_wdm_enu_41238.exe",
+    "relative_path": "7-2_xp_dd_ccc_wdm_enu_41238\\expanded\\ati2mtag.sys",
+    "version": "6.14.10.6666",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "34437146050146fe03627bb3b1ee063bb4f10a985c70b317925a6d40e83b85fd",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat612-v72-layout",
+      "function_offset": "0x195332",
+      "function_va": "0x1d1732",
+      "patches": [
+        {
+          "offset": "0x195353",
+          "before": "33c0c3",
+          "after": "eb3190"
+        },
+        {
+          "offset": "0x195386",
+          "before": "23c2",
+          "after": "33c0"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x196755"
+      ],
+      "references_offsets": [],
+      "checksum": "0x1ed44a",
+      "changed_offsets": [
+        "0x148",
+        "0x149",
+        "0x195353",
+        "0x195354",
+        "0x195355",
+        "0x195386",
+        "0x195387"
+      ],
+      "input_sha256": "34437146050146fe03627bb3b1ee063bb4f10a985c70b317925a6d40e83b85fd",
+      "output_sha256": "9c7f95b115e22c5d59ea3612bb64eb4361f79b521b8e84bedab8cbd8fa04f8d3",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "7.2",
+    "earliest_supplied_version_for_layout_family": "6.12"
+  },
+  {
+    "archive": "7-3_vista32_dd_ccc_enu_43741.exe",
+    "relative_path": "7-3_vista32_dd_ccc_enu_43741\\expanded\\DRIVER\\atikmdag.sys",
+    "version": "7.01.01.613",
+    "module": "atikmdag.sys",
+    "machine": "0x14c",
+    "sha256": "94dd382a99ebe9b4de396d293c566dc75475f292bda1b38d320589361f677772",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "7-3_vista64_dd_ccc_enu_43741.exe",
+    "relative_path": "7-3_vista64_dd_ccc_enu_43741\\expanded\\atikmdag.sys",
+    "version": "7.01.01.613",
+    "module": "atikmdag.sys",
+    "machine": "0x8664",
+    "sha256": "44b84bdebb9f23180f011ea9cabdecd1c29cece9a6fe9e59e308fb654f248fda",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "7-3_xp64_dd_ccc_enu_44234-[guru3d.com].exe",
+    "relative_path": "7-3_xp64_dd_ccc_enu_44234-[guru3d.com]\\expanded\\ati2mtag.sys",
+    "version": "6.14.10.6677",
+    "module": "ati2mtag.sys",
+    "machine": "0x8664",
+    "sha256": "4f943a823afdf1bdbbbe84d5586117a38e7f4e3838fb761e32584290beef9332",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "7-3_xp_dd_ccc_wdm_enu_43737.exe",
+    "relative_path": "7-3_xp_dd_ccc_wdm_enu_43737\\expanded\\ati2mtag.sys",
+    "version": "6.14.10.6677",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "b02b098963ebd5f1993c32cc5079283bc2c6b43824f37cff9e7ad5f02ef5129a",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat612-v73-layout",
+      "function_offset": "0x1925e6",
+      "function_va": "0x1cd7e6",
+      "patches": [
+        {
+          "offset": "0x192607",
+          "before": "33c0c3",
+          "after": "eb3190"
+        },
+        {
+          "offset": "0x19263a",
+          "before": "23c2",
+          "after": "33c0"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x193a15"
+      ],
+      "references_offsets": [],
+      "checksum": "0x1e45c8",
+      "changed_offsets": [
+        "0x150",
+        "0x151",
+        "0x192607",
+        "0x192608",
+        "0x192609",
+        "0x19263a",
+        "0x19263b"
+      ],
+      "input_sha256": "b02b098963ebd5f1993c32cc5079283bc2c6b43824f37cff9e7ad5f02ef5129a",
+      "output_sha256": "db508b4f44ed0d7f14467c08ba4d31f21600612257a52db3c288964cd2a7ed6f",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "7.3",
+    "earliest_supplied_version_for_layout_family": "6.12"
+  },
+  {
+    "archive": "7-4_vista32_dd_ccc_enu_44985.exe",
+    "relative_path": "7-4_vista32_dd_ccc_enu_44985\\expanded\\atikmdag.sys",
+    "version": "7.01.01.622",
+    "module": "atikmdag.sys",
+    "machine": "0x14c",
+    "sha256": "81e57a3cdfac7a516baac079092a59bed28a05e80f079b7842efb4dd7b65f08b",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "7-5_vista32_dd_ccc_enu_46757.exe",
+    "relative_path": "7-5_vista32_dd_ccc_enu_46757\\expanded\\Driver\\atikmdag.sys",
+    "version": "7.01.01.646",
+    "module": "atikmdag.sys",
+    "machine": "0x14c",
+    "sha256": "c7dae2bb24a87dd15f46c2aa7542ecac1e3bc34c231afeba34581c922c370d3a",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "7-5_vista64_dd_ccc_enu_46757.exe",
+    "relative_path": "7-5_vista64_dd_ccc_enu_46757\\expanded\\Driver\\atikmdag.sys",
+    "version": "7.01.01.646",
+    "module": "atikmdag.sys",
+    "machine": "0x8664",
+    "sha256": "195fa308ee540a15f04a9b907f647e5fcc5d32400a3cc416ec533747d8385190",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "7-5_xp_dd_ccc_wdm_enu_46743.exe",
+    "relative_path": "7-5_xp_dd_ccc_wdm_enu_46743\\expanded\\Driver\\ati2mtag.sys",
+    "version": "6.14.10.6698",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "7a7021325373053a547a1106290f62707d608e10b97031035320c4890593761e",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat75-inline",
+      "function_offset": "0x1ce61e",
+      "function_va": "0x20dc1e",
+      "patches": [
+        {
+          "offset": "0x1ce672",
+          "before": "0f85d0000000",
+          "after": "753290909090"
+        },
+        {
+          "offset": "0x1ce6ac",
+          "before": "23c1",
+          "after": "33c0"
+        }
+      ],
+      "validation": "full-function-and-dispatch-reference",
+      "callers_offsets": [],
+      "references_offsets": [
+        "0x176104"
+      ],
+      "checksum": "0x219448",
+      "changed_offsets": [
+        "0x148",
+        "0x149",
+        "0x1ce672",
+        "0x1ce673",
+        "0x1ce674",
+        "0x1ce675",
+        "0x1ce676",
+        "0x1ce677",
+        "0x1ce6ac",
+        "0x1ce6ad"
+      ],
+      "input_sha256": "7a7021325373053a547a1106290f62707d608e10b97031035320c4890593761e",
+      "output_sha256": "1c17bf77189b97030c885bf4de67c6795114cac97cc8d502813f466d278f3d68",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "7.5",
+    "earliest_supplied_version_for_layout_family": "7.5"
+  },
+  {
+    "archive": "7-6_vista32_dd_ccc_wdm_enu_48645.exe",
+    "relative_path": "7-6_vista32_dd_ccc_wdm_enu_48645\\expanded\\Driver\\atikmdag.sys",
+    "version": "7.01.01.646",
+    "module": "atikmdag.sys",
+    "machine": "0x14c",
+    "sha256": "fa99a72582598ae632e5a875c1a50f144af8586eaa1045146b629977da912925",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "7-6_xp_dd_ccc_wdm_enu_48640.exe",
+    "relative_path": "7-6_xp_dd_ccc_wdm_enu_48640\\expanded\\Driver\\ati2mtag.sys",
+    "version": "6.14.10.6698",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "daad2bc51c66811a3a17500f459ea4da6ea16c5ec8b4a5c24a17bf53ceab12d0",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat76-inline",
+      "function_offset": "0x1cc3e6",
+      "function_va": "0x20cbe6",
+      "patches": [
+        {
+          "offset": "0x1cc42b",
+          "before": "7424",
+          "after": "eb3c"
+        }
+      ],
+      "validation": "full-function-and-dispatch-reference",
+      "callers_offsets": [],
+      "references_offsets": [
+        "0x176b14"
+      ],
+      "checksum": "0x21293f",
+      "changed_offsets": [
+        "0x148",
+        "0x149",
+        "0x1cc42b",
+        "0x1cc42c"
+      ],
+      "input_sha256": "daad2bc51c66811a3a17500f459ea4da6ea16c5ec8b4a5c24a17bf53ceab12d0",
+      "output_sha256": "9823ffea06e077aa567ec6efb0969c047022dbaf54ea80d75b82f1743e6bb250",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "7.6",
+    "earliest_supplied_version_for_layout_family": "7.6"
+  },
+  {
+    "archive": "7-7_xp32_dd_ccc_wdm_enu_49709.exe",
+    "relative_path": "7-7_xp32_dd_ccc_wdm_enu_49709\\expanded\\Driver\\ati2mtag.sys",
+    "version": "6.14.10.6706",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "6bc2c22b884159fd81e4307e1b14b76c43ad33ab4189dbe835884f47a9c402b8",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat77-inline",
+      "function_offset": "0x1efa26",
+      "function_va": "0x22fc26",
+      "patches": [
+        {
+          "offset": "0x1efa67",
+          "before": "75",
+          "after": "eb"
+        }
+      ],
+      "validation": "full-function-and-dispatch-reference",
+      "callers_offsets": [],
+      "references_offsets": [
+        "0x18d75c"
+      ],
+      "checksum": "0x236144",
+      "changed_offsets": [
+        "0x150",
+        "0x151",
+        "0x1efa67"
+      ],
+      "input_sha256": "6bc2c22b884159fd81e4307e1b14b76c43ad33ab4189dbe835884f47a9c402b8",
+      "output_sha256": "c239b5aeba6f368b051407804db3849e70c24d981046a48aebd8ea7c0334d862",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "7.7",
+    "earliest_supplied_version_for_layout_family": "7.7"
+  },
+  {
+    "archive": "8-12_vista64_dd_ccc_wdm_enu_72276.exe",
+    "relative_path": "8-12_vista64_dd_ccc_wdm_enu_72276\\expanded\\Driver\\atikmdag.sys",
+    "version": "7.01.01.849",
+    "module": "atikmdag.sys",
+    "machine": "0x8664",
+    "sha256": "56975de6ec9d844d73ef820be5e85e63e56da6f2408ebb7cba84a3d088bf2565",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "8-12_xp32_dd_ccc_wdm_enu_72271.exe",
+    "relative_path": "8-12_xp32_dd_ccc_wdm_enu_72271\\expanded\\Driver\\ati2mtag.sys",
+    "version": "6.14.10.6891",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "e917aebd221bf2db217c111f256033fda2b28fe55c7e87dad4a16b84e3fd9398",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat86-layout",
+      "function_offset": "0x3111d0",
+      "function_va": "0x5089d0",
+      "patches": [
+        {
+          "offset": "0x3111e4",
+          "before": "75",
+          "after": "eb"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x311e2b"
+      ],
+      "references_offsets": [],
+      "checksum": "0x3519e3",
+      "changed_offsets": [
+        "0x138",
+        "0x3111e4"
+      ],
+      "input_sha256": "e917aebd221bf2db217c111f256033fda2b28fe55c7e87dad4a16b84e3fd9398",
+      "output_sha256": "4217f76c54b82f4781870067a5dfeba3a07dd473734ef0b95b9fa029e4491cd7",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "8.6",
+    "earliest_supplied_version_for_layout_family": "8.6"
+  },
+  {
+    "archive": "8-2_vista64_dd_58134.exe",
+    "relative_path": "8-2_vista64_dd_58134\\expanded\\atikmdag.sys",
+    "version": "7.01.01.730",
+    "module": "atikmdag.sys",
+    "machine": "0x8664",
+    "sha256": "9c9e70a21962b620324eea8b1e1b6ff7194fe99932a12fcfbf4af68e49d518ec",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "8-6_vista32_dd_ccc_wdm_enu_64789.exe",
+    "relative_path": "8-6_vista32_dd_ccc_wdm_enu_64789\\expanded\\atikmdag.sys",
+    "version": "7.01.01.788",
+    "module": "atikmdag.sys",
+    "machine": "0x14c",
+    "sha256": "22b75605c359d84f982af583c552a849f332b06025be9dc7dc1118cc23e67821",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "8-6_xp32_dd_ccc_wdm_enu_64783.exe",
+    "relative_path": "8-6_xp32_dd_ccc_wdm_enu_64783\\expanded\\ati2mtag.sys",
+    "version": "6.14.10.6822",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "197ada7818baece0ac0aa2ab0b55609dcfa0b19851dda593982a0989a9b97ce7",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat86-layout",
+      "function_offset": "0x2bd706",
+      "function_va": "0x454906",
+      "patches": [
+        {
+          "offset": "0x2bd71a",
+          "before": "75",
+          "after": "eb"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x15906",
+        "0x2bf6cd"
+      ],
+      "references_offsets": [],
+      "checksum": "0x2f5d5e",
+      "changed_offsets": [
+        "0x148",
+        "0x149",
+        "0x2bd71a"
+      ],
+      "input_sha256": "197ada7818baece0ac0aa2ab0b55609dcfa0b19851dda593982a0989a9b97ce7",
+      "output_sha256": "73db50f8cf703e5a0fec19d2a1fa5902a0e85210b1091c87b568afa3491aeac4",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "8.6",
+    "earliest_supplied_version_for_layout_family": "8.6"
+  },
+  {
+    "archive": "8-9_xp32_dd_ccc_wdm_enu_68898.exe",
+    "relative_path": "8-9_xp32_dd_ccc_wdm_enu_68898\\expanded\\ati2mtag.sys",
+    "version": "6.14.10.6860",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "497eb7f5ed27886acd50d976ee35de2f5f142bd3628869d06f4e154bd29e55a1",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat86-layout",
+      "function_offset": "0x2eca8a",
+      "function_va": "0x4e2a8a",
+      "patches": [
+        {
+          "offset": "0x2eca9e",
+          "before": "75",
+          "after": "eb"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x15c08",
+        "0x2eea75"
+      ],
+      "references_offsets": [],
+      "checksum": "0x330f5d",
+      "changed_offsets": [
+        "0x148",
+        "0x149",
+        "0x2eca9e"
+      ],
+      "input_sha256": "497eb7f5ed27886acd50d976ee35de2f5f142bd3628869d06f4e154bd29e55a1",
+      "output_sha256": "f084234971d4e9de3a6f7093d6f4b1e1e0f3c2f5326edb57cbd18c6b9610d3ae",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "8.6",
+    "earliest_supplied_version_for_layout_family": "8.6"
+  },
+  {
+    "archive": "9-12_vista32_win7_32_dd_ccc_wdm_enu.exe",
+    "relative_path": "9-12_vista32_win7_32_dd_ccc_wdm_enu\\expanded\\Driver\\Packages\\Drivers\\Display\\W7_INF\\B_92022\\atikmdag.sys",
+    "version": "8.01.01.984",
+    "module": "atikmdag.sys",
+    "machine": "0x14c",
+    "sha256": "b09befe826bd720e6f48d900b846c1835402738486d4b3ed855e59f1aec8cad9",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "9-12_vista64_win7_64_dd_ccc_wdm_enu.exe",
+    "relative_path": "9-12_vista64_win7_64_dd_ccc_wdm_enu\\expanded\\Driver\\Packages\\Drivers\\Display\\W76A_INF\\B_92022\\atikmdag.sys",
+    "version": "8.01.01.984",
+    "module": "atikmdag.sys",
+    "machine": "0x8664",
+    "sha256": "eda5897a58115accbb880ebae1034e45aa0f2038a98c21e3a3cf1662c360408b",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "9-12_xp32_dd_ccc_wdm_enu.exe",
+    "relative_path": "9-12_xp32_dd_ccc_wdm_enu\\expanded\\Driver\\Packages\\Drivers\\Display\\XP_INF\\B_92022\\ati2mtag.sys",
+    "version": "6.14.10.7028",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "3f8600aa86320d3d3eb70dc59b60e50a58ba6b6f5314fbdd886753c40a8cd65c",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat86-layout",
+      "function_offset": "0x40eb36",
+      "function_va": "0x46cd36",
+      "patches": [
+        {
+          "offset": "0x40eb4a",
+          "before": "75",
+          "after": "eb"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x40f739"
+      ],
+      "references_offsets": [],
+      "checksum": "0x44360b",
+      "changed_offsets": [
+        "0x140",
+        "0x141",
+        "0x40eb4a"
+      ],
+      "input_sha256": "3f8600aa86320d3d3eb70dc59b60e50a58ba6b6f5314fbdd886753c40a8cd65c",
+      "output_sha256": "06fdac1f6f15a54d360e4247ecd9184cacb5122bc90e84fae4f5fd06d74a23ce",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "8.6",
+    "earliest_supplied_version_for_layout_family": "8.6"
+  },
+  {
+    "archive": "9-12_xp64_dd_ccc_enu.exe",
+    "relative_path": "9-12_xp64_dd_ccc_enu\\expanded\\Driver\\Packages\\Drivers\\Display\\XP6A_INF\\B_92022\\ati2mtag.sys",
+    "version": "6.14.10.7028",
+    "module": "ati2mtag.sys",
+    "machine": "0x8664",
+    "sha256": "d42828e25f1c0a784da408f32f52682a0af0f90ddc622c8a2396f4e9efdefb7a",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "9-1_xp32_dd_ccc_wdm_enu_74230.exe",
+    "relative_path": "9-1_xp32_dd_ccc_wdm_enu_74230\\expanded\\Driver\\ati2mtag.sys",
+    "version": "6.14.10.6903",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "59fe5f941b4aa9132df888a160014a9fbc575c4c89a1d0fd2ced328b56a47aa9",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat86-layout",
+      "function_offset": "0x312abe",
+      "function_va": "0x370ebe",
+      "patches": [
+        {
+          "offset": "0x312ad2",
+          "before": "75",
+          "after": "eb"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x31371d"
+      ],
+      "references_offsets": [],
+      "checksum": "0x356b61",
+      "changed_offsets": [
+        "0x138",
+        "0x139",
+        "0x312ad2"
+      ],
+      "input_sha256": "59fe5f941b4aa9132df888a160014a9fbc575c4c89a1d0fd2ced328b56a47aa9",
+      "output_sha256": "9c786234fe1ab841ac36709601fce59957c67a42f46cfa54ded4a6113576bd16",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "8.6",
+    "earliest_supplied_version_for_layout_family": "8.6"
+  },
+  {
+    "archive": "9-3_xp32_dd_ccc_wdm_enu.exe",
+    "relative_path": "9-3_xp32_dd_ccc_wdm_enu\\expanded\\Driver\\Driver\\XP_INF\\B_76557\\ati2mtag.sys",
+    "version": "6.14.10.6925",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "8564071956609f679c511b87c0328578824a7c1ed08de22cfc74df589e6eeef2",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat86-layout",
+      "function_offset": "0x32cc2a",
+      "function_va": "0x38a02a",
+      "patches": [
+        {
+          "offset": "0x32cc3e",
+          "before": "75",
+          "after": "eb"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x32d889"
+      ],
+      "references_offsets": [],
+      "checksum": "0x372574",
+      "changed_offsets": [
+        "0x138",
+        "0x139",
+        "0x32cc3e"
+      ],
+      "input_sha256": "8564071956609f679c511b87c0328578824a7c1ed08de22cfc74df589e6eeef2",
+      "output_sha256": "90c0f098e55678c09eeccdd3b76c9cb887d8d3993102ce75b4ac9599aa70247c",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "8.6",
+    "earliest_supplied_version_for_layout_family": "8.6"
+  },
+  {
+    "archive": "9-4_xp32_dd_ccc_wdm_enu.exe",
+    "relative_path": "9-4_xp32_dd_ccc_wdm_enu\\expanded\\Driver\\Driver\\XP_INF\\B_77779\\ati2mtag.sys",
+    "version": "6.14.10.6936",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "dfffad15a94214a31d32d962958bf5f944a4bd47dc191b08d2a8d9e14ac859d5",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat86-layout",
+      "function_offset": "0x334424",
+      "function_va": "0x392024",
+      "patches": [
+        {
+          "offset": "0x334438",
+          "before": "75",
+          "after": "eb"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x335083"
+      ],
+      "references_offsets": [],
+      "checksum": "0x374aab",
+      "changed_offsets": [
+        "0x140",
+        "0x334438"
+      ],
+      "input_sha256": "dfffad15a94214a31d32d962958bf5f944a4bd47dc191b08d2a8d9e14ac859d5",
+      "output_sha256": "16404e03be5a043f283dccbd13f1e16e58ec6e833ccc8de29499592d37c3456f",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "8.6",
+    "earliest_supplied_version_for_layout_family": "8.6"
+  },
+  {
+    "archive": "whql-win8.1-win7-catalyst-15.7.1-oct30.exe",
+    "relative_path": "whql-win8.1-win7-catalyst-15.7.1-oct30\\expanded\\Packages\\Drivers\\Display\\WB6A_INF\\B187676\\atikmdag.sys",
+    "version": "8.01.01.1500",
+    "module": "atikmdag.sys",
+    "machine": "0x8664",
+    "sha256": "abc32725596704f151f264e16865925c2cd91a3b728839f089bde3a5f5fdcb29",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "whql-win8.1-win7-catalyst-15.7.1-oct30.exe",
+    "relative_path": "whql-win8.1-win7-catalyst-15.7.1-oct30\\expanded\\Packages\\Drivers\\Display\\WB6A_INF\\B187676\\atikmpag.sys",
+    "version": "8.14.01.6463",
+    "module": "atikmpag.sys",
+    "machine": "0x8664",
+    "sha256": "9b481d55ed3d55a975cb1eb32dd0db9ad032d592585a5799f81918efb7843aae",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "whql-win8.1-win7-catalyst-15.7.1-oct30.exe",
+    "relative_path": "whql-win8.1-win7-catalyst-15.7.1-oct30\\expanded\\Packages\\Drivers\\Display\\WB_INF\\B187676\\atikmdag.sys",
+    "version": "8.01.01.1500",
+    "module": "atikmdag.sys",
+    "machine": "0x14c",
+    "sha256": "ec1ad64fe828de1399f7a51e99916ffe525b07e0a566afa8519afa1ca2a92842",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "whql-win8.1-win7-catalyst-15.7.1-oct30.exe",
+    "relative_path": "whql-win8.1-win7-catalyst-15.7.1-oct30\\expanded\\Packages\\Drivers\\Display\\WB_INF\\B187676\\atikmpag.sys",
+    "version": "8.14.01.6463",
+    "module": "atikmpag.sys",
+    "machine": "0x14c",
+    "sha256": "e1cdd6f1f62000542c51e9f3666022dcf438fd7d47eec90edaa8985e82d02167",
+    "result": "rejected-unsupported-platform"
+  },
+  {
+    "archive": "7-1_xp_dd_ccc_wdm_enu_40211.exe",
+    "relative_path": "7-1_xp_dd_ccc_wdm_enu_40211\\expanded\\ati2mtag.sys",
+    "version": "6.14.10.6660",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "f7e2e0a4057ace0adfa3ec2a823618ff65f63f83355a4c0268d49ee7ce750139",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat612-v71-layout",
+      "function_offset": "0x18a050",
+      "function_va": "0x1c8650",
+      "patches": [
+        {
+          "offset": "0x18a071",
+          "before": "33c0c3",
+          "after": "eb3190"
+        },
+        {
+          "offset": "0x18a0a4",
+          "before": "23c2",
+          "after": "33c0"
+        }
+      ],
+      "validation": "direct-caller-and-return-test",
+      "callers_offsets": [
+        "0x18b195"
+      ],
+      "references_offsets": [],
+      "checksum": "0x1e43ce",
+      "changed_offsets": [
+        "0x150",
+        "0x151",
+        "0x152",
+        "0x18a071",
+        "0x18a072",
+        "0x18a073",
+        "0x18a0a4",
+        "0x18a0a5"
+      ],
+      "input_sha256": "f7e2e0a4057ace0adfa3ec2a823618ff65f63f83355a4c0268d49ee7ce750139",
+      "output_sha256": "0585154acac28ef38d026288bb2bcd43471ec9516e495aa20ebe9f2540bd74e7",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "7.1",
+    "earliest_supplied_version_for_layout_family": "6.12"
+  },
+  {
+    "archive": "7-8_xp32_dd_ccc_wdm_enu_50960.exe",
+    "relative_path": "7-8_xp32_dd_ccc_wdm_enu_50960\\expanded\\Driver\\ati2mtag.sys",
+    "version": "6.14.10.6715",
+    "module": "ati2mtag.sys",
+    "machine": "0x14c",
+    "sha256": "068450a76d131f353d48ac05b012dc0c0605a8ef27b4cf6476b4aadd57291ae1",
+    "result": "validated",
+    "patch": {
+      "tool_version": "0.3.2",
+      "mode": "all",
+      "layout": "cat77-v78-inline",
+      "function_offset": "0x1fecaa",
+      "function_va": "0x23eeaa",
+      "patches": [
+        {
+          "offset": "0x1feceb",
+          "before": "75",
+          "after": "eb"
+        }
+      ],
+      "validation": "full-function-and-dispatch-reference",
+      "callers_offsets": [],
+      "references_offsets": [
+        "0x19156c"
+      ],
+      "checksum": "0x247ee7",
+      "changed_offsets": [
+        "0x148",
+        "0x149",
+        "0x14a",
+        "0x1feceb"
+      ],
+      "input_sha256": "068450a76d131f353d48ac05b012dc0c0605a8ef27b4cf6476b4aadd57291ae1",
+      "output_sha256": "5dadabfa588628d3af5fde29d2c8d0dc0f784d8340471e1b5501826b228eafea",
+      "hardware_tested": false
+    },
+    "windows_checksum_verified": true,
+    "earliest_supplied_version_for_pattern": "7.8",
+    "earliest_supplied_version_for_layout_family": "7.7"
+  }
+]

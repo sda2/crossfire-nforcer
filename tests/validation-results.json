@@ -1,0 +1,333 @@
+{
+  "archive_entries": [
+    {
+      "archive": "10-2_legacy_vista32-64_dd_ccc.exe",
+      "machine": "0x8664",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "10-2_legacy_vista32-64_dd_ccc.exe",
+      "machine": "0x14c",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "10-2_legacy_xp32-64_dd_ccc.exe",
+      "machine": "0x8664",
+      "module": "ati2mtag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "10-2_legacy_xp32-64_dd_ccc.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "11-12_vista64_win7_64_dd_ccc_ocl.exe",
+      "machine": "0x8664",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "11-12_vista64_win7_64_dd_ccc_ocl.exe",
+      "machine": "0x8664",
+      "module": "atikmpag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "11-1_vista64_win7_64_dd_ccc_enu.exe",
+      "machine": "0x8664",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "11-1_vista64_win7_64_dd_ccc_enu.exe",
+      "machine": "0x8664",
+      "module": "atikmpag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "11-8_vista64_win7_64_dd_ccc_ocl.exe",
+      "machine": "0x8664",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "11-8_vista64_win7_64_dd_ccc_ocl.exe",
+      "machine": "0x8664",
+      "module": "atikmpag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "13-9-legacy_vista_win7_64_dd_ccc_whql.exe",
+      "machine": "0x8664",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "13-9-legacy_vista_win7_64_dd_ccc_whql.exe",
+      "machine": "0x8664",
+      "module": "atikmpag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "14-4-xp32-64-dd-ccc-pack2.exe",
+      "machine": "0x8664",
+      "module": "ati2mtag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "14-4-xp32-64-dd-ccc-pack2.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "5-12_xp-2k_dd_ccc_wdm_enu_28472.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "5-13_xp-2k_dd_ccc_wdm_enu_29124.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "6-12_xp_dd_ccc_wdm_enu_38463.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "6-6_xp-2k_dd_ccc_wdm_enu_33678.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "6-7_xp-2k_dd_ccc_wdm_enu_34826.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "7-11_xp32_dd_ccc_wdm_enu_54435.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "7-12_xp32_dd_ccc_wdm_enu_55811.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "7-2_xp_dd_ccc_wdm_enu_41238.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "7-3_vista32_dd_ccc_enu_43741.exe",
+      "machine": "0x14c",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "7-3_vista64_dd_ccc_enu_43741.exe",
+      "machine": "0x8664",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "7-3_xp64_dd_ccc_enu_44234-[guru3d.com].exe",
+      "machine": "0x8664",
+      "module": "ati2mtag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "7-3_xp_dd_ccc_wdm_enu_43737.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "7-4_vista32_dd_ccc_enu_44985.exe",
+      "machine": "0x14c",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "7-5_vista32_dd_ccc_enu_46757.exe",
+      "machine": "0x14c",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "7-5_vista64_dd_ccc_enu_46757.exe",
+      "machine": "0x8664",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "7-5_xp_dd_ccc_wdm_enu_46743.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "7-6_vista32_dd_ccc_wdm_enu_48645.exe",
+      "machine": "0x14c",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "7-6_xp_dd_ccc_wdm_enu_48640.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "7-7_xp32_dd_ccc_wdm_enu_49709.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "8-12_vista64_dd_ccc_wdm_enu_72276.exe",
+      "machine": "0x8664",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "8-12_xp32_dd_ccc_wdm_enu_72271.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "8-2_vista64_dd_58134.exe",
+      "machine": "0x8664",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "8-6_vista32_dd_ccc_wdm_enu_64789.exe",
+      "machine": "0x14c",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "8-6_xp32_dd_ccc_wdm_enu_64783.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "8-9_xp32_dd_ccc_wdm_enu_68898.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "9-12_vista32_win7_32_dd_ccc_wdm_enu.exe",
+      "machine": "0x14c",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "9-12_vista64_win7_64_dd_ccc_wdm_enu.exe",
+      "machine": "0x8664",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "9-12_xp32_dd_ccc_wdm_enu.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "9-12_xp64_dd_ccc_enu.exe",
+      "machine": "0x8664",
+      "module": "ati2mtag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "9-1_xp32_dd_ccc_wdm_enu_74230.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "9-3_xp32_dd_ccc_wdm_enu.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "9-4_xp32_dd_ccc_wdm_enu.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "whql-win8.1-win7-catalyst-15.7.1-oct30.exe",
+      "machine": "0x8664",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "whql-win8.1-win7-catalyst-15.7.1-oct30.exe",
+      "machine": "0x8664",
+      "module": "atikmpag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "whql-win8.1-win7-catalyst-15.7.1-oct30.exe",
+      "machine": "0x14c",
+      "module": "atikmdag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "whql-win8.1-win7-catalyst-15.7.1-oct30.exe",
+      "machine": "0x14c",
+      "module": "atikmpag.sys",
+      "result": "rejected-unsupported-platform"
+    },
+    {
+      "archive": "7-1_xp_dd_ccc_wdm_enu_40211.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    },
+    {
+      "archive": "7-8_xp32_dd_ccc_wdm_enu_50960.exe",
+      "machine": "0x14c",
+      "module": "ati2mtag.sys",
+      "result": "validated"
+    }
+  ],
+  "synthetic_layouts": [
+    "cat512-layout",
+    "cat86-layout",
+    "cat612-layout",
+    "cat711-inline",
+    "cat612-v72-layout",
+    "cat612-v73-layout",
+    "cat75-inline",
+    "cat76-inline",
+    "cat77-inline",
+    "cat712-inline",
+    "cat612-v71-layout",
+    "cat77-v78-inline"
+  ],
+  "menu_tests": "passed",
+  "xp_hardware_tested": false,
+  "exe_sha256": "1690d27f7ebb87ffa8194f9b8ed43b73ed929e0873801b327b64432d11e96d6d"
+}
