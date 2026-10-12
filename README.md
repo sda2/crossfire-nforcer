@@ -20,7 +20,7 @@ Crossfire nForcer patches the chipset-vendor check in supported ATI `ati2mtag.sy
 3. Double-click `Crossfire-nForcer.exe`.
 4. Enter a menu number and press Enter.
 
-<img width="1115" height="628" alt="grafik" src="https://github.com/user-attachments/assets/71bc3844-e011-476b-9f42-e81ddb5ed55c" />
+<img width="1115" height="628" alt="grafik" src="https://github.com/user-attachments/assets/3a8368bd-2ed8-432c-a516-d9be24305b2b" />
 
 Starting the program does not modify the driver. Select `2` to apply the patch. Results and errors remain visible until Enter is pressed. The program then returns to the menu.
 
